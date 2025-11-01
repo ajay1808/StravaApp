@@ -14,7 +14,9 @@ st.markdown("""
         background-color: #f0f2f6;
         padding: 10px;
         border-radius: 10px;
-        box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+        box-shadow:         st.dataframe(
+            activity_log.sort_values('start_date', ascending=False),
+            use_container_width=True)  # TODO: Update to width='stretch' when Streamlit is updated 2px 5px rgba(0,0,0,0.1);
     }
     .record-card {
         background-color: #f0f2f6;

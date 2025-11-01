@@ -1,8 +1,6 @@
-# My Strava Activity Dashboard
+# Strava Activity Dashboard
 
-This is a Streamlit application to fetch and display your personal Strava activity data. It connects to the Strava API, pulls your recent activities, and displays them in a table with simple stats and charts.
-
-[Add a screenshot of your app here!]
+A powerful analytics dashboard for your Strava activities, built with Streamlit and Python. Track your fitness progress with advanced metrics and interactive visualizations.
 
 ## 📱 Available Apps
 
