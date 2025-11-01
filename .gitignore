@@ -1,0 +1,15 @@
+# Ignore the virtual environment
+strava/
+
+# Ignore secrets!
+.streamlit/secrets.toml
+
+# Ignore your temporary token file
+token.txt
+
+# Standard Python junk
+__pycache__/
+*.pyc
+
+# Standard Mac junk
+.DS_Store
